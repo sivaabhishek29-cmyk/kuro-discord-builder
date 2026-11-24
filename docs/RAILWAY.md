@@ -7,7 +7,7 @@ This repository is ready for Railway, but **nothing has been deployed**. You con
 1. Sign in at [Railway](https://railway.app/) and choose **New Project → Deploy from GitHub Repo**.
 2. Select this private repository (`Lovelycrxshx/kuro-discord-builder`) and the branch you want to deploy.
 3. Railway detects `package.json`. The committed `railway.json` sets:
-   - Build: `npm ci && npm run build`
+   - Build: `npm run build` (dependencies are installed by Railway's install step)
    - Start: `npm run start`
    - Health check: `GET /health`
 
